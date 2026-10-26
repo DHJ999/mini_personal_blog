@@ -25,6 +25,9 @@ body {
     background: linear-gradient(135deg, var(--bg-light) 0%, #f0f4f8 50%, #e8ecf0 100%);
     min-height: 100vh;
     position: relative;
+    /* 弹性纵向布局：main 撑开剩余空间，footer 始终贴在页面最底部 */
+    display: flex;
+    flex-direction: column;
 }
 
 body::before {
@@ -72,6 +75,7 @@ header {
     top: 0;
     z-index: 100;
     box-shadow: var(--shadow-sm);
+    flex-shrink: 0;
 }
 
 header .container {
@@ -271,6 +275,10 @@ header nav {
 
 main {
     padding: 7rem 0 3rem;
+    /* 占满 body 的剩余高度，把 footer 顶到页面底部 */
+    flex: 1 0 auto;
+    /* body 变为 flex 容器后，.container 的 margin:0 auto 会让 main 收缩到内容宽度，需显式撑满 */
+    width: 100%;
 }
 
 section {
@@ -736,8 +744,8 @@ footer {
     backdrop-filter: blur(10px);
     border-top: 1px solid var(--border-color);
     padding: 2rem 0;
-    margin-top: 4rem;
     text-align: center;
+    flex-shrink: 0;
 }
 
 footer p {

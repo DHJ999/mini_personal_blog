@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏠 DHJ 的小站
+# 🏠 xxx 的小站
 
 **一个基于 Flask 的轻量个人博客** —— 图片分享、评论互动、消息通知，开箱即用。
 
@@ -203,6 +203,6 @@ waitress-serve --host=0.0.0.0 --port=5000 app:app
 
 <div align="center">
 
-Made with ❤️ · [DHJ 的小站](https://github.com/DHJ999/mini_personal_blog)
+Made with ❤️ · [xxx 的小站](https://github.com/DHJ999/mini_personal_blog)
 
 </div>

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏠 DHJ's Blog
+# 🏠 xxx's Blog
 
 **A lightweight Flask-based personal blog** —— image sharing, comments & replies, and message notifications, ready to run out of the box.
 
@@ -205,7 +205,7 @@ This project is licensed under the **[PolyForm Noncommercial License 1.0.0](http
 
 <div align="center">
 
-Made with ❤️ · [DHJ's Blog](https://github.com/DHJ999/mini_personal_blog)
+Made with ❤️ · [xxx's Blog](https://github.com/DHJ999/mini_personal_blog)
 
 📘 中文文档：[README.md](README.md)
 

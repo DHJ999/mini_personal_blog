@@ -9,8 +9,8 @@
 TRANSLATIONS = {
     'zh': {
         # 站点
-        'site_name': 'DHJ的小站',
-        'footer': '© 2026 DHJ的小站. Made with ❤️ For you for me',
+        'site_name': 'xxx的小站',
+        'footer': '© 2026 xxx的小站. Made with ❤️ For you for me',
 
         # 导航
         'nav.home': '首页',
@@ -237,9 +237,9 @@ TRANSLATIONS = {
         'notif.reply_image': '{name} 在你的图片评论下进行了回复',
 
         # 邮件
-        'email.register_subject': 'DHJ的小站 - 注册验证码',
+        'email.register_subject': 'xxx的小站 - 注册验证码',
         'email.register_body': '你的注册验证码是：{code}\n\n验证码有效期为5分钟，请尽快使用。',
-        'email.reset_subject': 'DHJ的小站 - 密码重置验证码',
+        'email.reset_subject': 'xxx的小站 - 密码重置验证码',
         'email.reset_body': '你的密码重置验证码是：{code}\n\n验证码有效期为5分钟，请尽快使用。',
 
         # 开发模式控制台
@@ -250,8 +250,8 @@ TRANSLATIONS = {
 
     'en': {
         # Site
-        'site_name': "DHJ's Blog",
-        'footer': "© 2026 DHJ's Blog. Made with ❤️ For you for me",
+        'site_name': "xxx's Blog",
+        'footer': "© 2026 xxx's Blog. Made with ❤️ For you for me",
 
         # Nav
         'nav.home': 'Home',
@@ -478,9 +478,9 @@ TRANSLATIONS = {
         'notif.reply_image': '{name} replied to a comment on your photo',
 
         # Email
-        'email.register_subject': "DHJ's Blog - Registration code",
+        'email.register_subject': "xxx's Blog - Registration code",
         'email.register_body': 'Your registration code is: {code}\n\nThe code is valid for 5 minutes.',
-        'email.reset_subject': "DHJ's Blog - Password reset code",
+        'email.reset_subject': "xxx's Blog - Password reset code",
         'email.reset_body': 'Your password reset code is: {code}\n\nThe code is valid for 5 minutes.',
 
         # Dev console
